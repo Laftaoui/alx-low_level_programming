@@ -1,8 +1,8 @@
 #include <stdio.h>
-/**                                                                                                                   
-* main - print_alphabet                                                                                               
-*                                                                                                                     
-* Return: Always 0 (Success)                                                                                          
+/**
+* main - print alpha
+*
+* Return: Always 0 (Success)
 */
 int main(void)
 {
@@ -15,8 +15,8 @@ x++;
 };
 while (y <= 'Z')
 {
-putchar(x);
-x++;
+putchar(y);
+y++;
 };
 putchar('\n');
 return (0);
