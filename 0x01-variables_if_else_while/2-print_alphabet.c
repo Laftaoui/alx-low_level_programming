@@ -4,13 +4,13 @@
 *
 * Return: Always 0 (Success)
 */
-int main()
+int main(void)
 {
 char x = 'a';
-while (x <='z')
+while (x < 'z')
 {
 putchar(x);
 x++;
 };
-return 0;
+return (0);
 }
