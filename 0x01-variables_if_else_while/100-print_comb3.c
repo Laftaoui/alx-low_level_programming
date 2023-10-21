@@ -6,19 +6,23 @@
 */
 int main(void)
 {
-for (int i = 48 ; i < 58 ; i++)
+int i = 48;
+while (i < 57)
 {
-for (int j = i + 1 ; j < 58 ; j++)
+int j = 49;
+while (j < 58 + 48 - i)
 {
 putchar(i);
-putchar(j);
+putchar(j + i - 48);
 if (i < 56)
 {
 putchar(44);
 putchar(32);
 };
-}
-}
+j++;
+};
+i++;
+};
 putchar('\n');
 return (0);
 }
