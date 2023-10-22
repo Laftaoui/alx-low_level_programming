@@ -1,12 +1,8 @@
+#ifndef MAIN_H
+#define MAIN_H
+
 #include <stdio.h>
-#include <unistd.h>
-/**
-* main -  print
-*
-* Return: Always 1 (not Success)
-*/
-int main(void)
-{
-fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
-return (1);
-}
+
+int _putchar(char x);
+
+#endif
