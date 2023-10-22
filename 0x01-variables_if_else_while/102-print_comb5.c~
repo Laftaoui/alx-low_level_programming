@@ -1,0 +1,41 @@
+#include <stdio.h>
+/**
+* main - Print 3 num
+*
+* Return: Always 0 (Success)
+*/
+int main(void)
+{
+static int i=48;
+while ( i < 58)
+{
+int j = 48;
+while (j <= 56)
+{
+int k = 48;
+while (k <= 57)
+{
+int l = 49;
+while (l <= 57)
+{
+putchar(i);
+putchar(j);
+putchar(32);
+putchar(k);
+putchar(l);
+if (l < 57 || k < 57)
+{
+putchar(44);
+putchar(32);
+};
+l++;
+};
+k++;
+};
+j++;
+};
+i++;
+};
+putchar('\n');
+return (0);
+}
