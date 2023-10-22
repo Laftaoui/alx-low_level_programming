@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*  print_alphabet - nly use _putchar twice in your code
+*  print_alphabet_x10 - nly use _putchar twice in your code
 *
 */
 void print_alphabet_x10(void)
