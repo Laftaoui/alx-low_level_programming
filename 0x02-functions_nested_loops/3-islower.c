@@ -1,6 +1,10 @@
 #include "main.h"
 /**
-*  function _islower - parameter or member 'c'-return value of '_islower' 0
+* _islower - function that checks for lowercase character
+*
+* 0c: checks input of fonction
+*
+* Return : Returns 1 if 'c' is lowercase 0 otherwise (success)
 *
 */
 int _islower(int c)
