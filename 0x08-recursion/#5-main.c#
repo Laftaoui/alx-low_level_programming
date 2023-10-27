@@ -1,0 +1,14 @@
+#INCLUDE "MAIN.H"
+#INCLUDE <STDIO.H>
+
+/**
+ * MAIN - CHECK THE CODE
+ *
+ * RETURN: ALWAYS 0.
+ */
+INT MAIN(VOID)
+{
+INT R;
+
+return (0);
+}
